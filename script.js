@@ -8,10 +8,11 @@ if(luckyNumber.value>0){
 const dob=dateBirth.value;
 const sum=calculate(dob);
 if(sum<luckyNumber.value || sum%luckyNumber.value!=0){
+ txtArea.style.color="red"   
  txtArea.innerText="Your Number is Not a Lucky Number"   
 }
-else{
-    
+else{ 
+    txtArea.style.color="black"   
     txtArea.innerText="Your Number is a Lucky Number"   
 }
 console.log(dob+"sum is"+sum)
