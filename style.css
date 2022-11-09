@@ -9,21 +9,30 @@
 
 }
 #first-half{
+    background-color: antiquewhite;
     height: 50%;
 }
+label{
+    font-weight: 900;
+    font-size: large;
+}
 #dateOfBirth{
-margin: 10px;
+    margin: 20px; 
+    width: 30%;
 }
 #luckynumber{
-margin: 10px; 
+margin: 20px; 
+width: 30%;
 }
 #check{
-    margin: auto;
+    margin: 10px;
+    width: 20%;
+    margin-left: 45%;
 }
 #txtArea{
     background-color: antiquewhite;
-    color: aquamarine;
-    font-size: 70px;
+    color: rgb(6, 152, 104);
+    font-size: 60px;
     height: auto;
     max-height: 40%;
 }
