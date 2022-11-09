@@ -12,7 +12,7 @@ if(sum<luckyNumber.value || sum%luckyNumber.value!=0){
  txtArea.innerText="Your Number is Not a Lucky Number"   
 }
 else{ 
-    txtArea.style.color="black"   
+    txtArea.style.color="green"   
     txtArea.innerText="Your Number is a Lucky Number"   
 }
 console.log(dob+"sum is"+sum)

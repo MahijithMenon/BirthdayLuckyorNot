@@ -8,11 +8,24 @@
     background-color: white;
 
 }
-.page1{
-    background-color: white;
+#first-half{
     height: 50%;
-    width: 45%;
+}
+#dateOfBirth{
+margin: 10px;
+}
+#luckynumber{
+margin: 10px; 
+}
+#check{
     margin: auto;
+}
+#txtArea{
+    background-color: antiquewhite;
+    color: aquamarine;
+    font-size: 70px;
+    height: auto;
+    max-height: 40%;
 }
 body{
     background-color: #4b5563;
